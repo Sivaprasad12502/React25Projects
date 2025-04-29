@@ -1,0 +1,31 @@
+.wrapper{
+    padding: 8px;
+}
+.heading{
+    display: grid;
+    place-items: center;
+    margin: 12px;
+    justify-items: stretch;
+}
+.tab-item{
+    display: inline-flex;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #4e016a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tab-item.active{
+    border-color: black;
+    background-color: #a1d600;
+    color: white;
+}
+.content{
+    padding: 20px 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #fff;
+}
